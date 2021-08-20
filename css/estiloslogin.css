@@ -1,0 +1,107 @@
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        body{
+            overflow: hidden;
+            font-family: 'Open Sans', sans-serif;
+            
+        } 
+        h1, h2, h3, h4, h5, h6{
+            font-family: 'Montserrat', sans-serif;
+            font-weight: lighter;
+        }
+        button{
+            color: rgb(184, 11, 11);
+            background-color: darkseagreen;  
+        }
+        #btnBlanco{
+            color: darkturquoise;
+            background-color: gainsboro;
+            font-weight: bold;
+            width: 200px;
+            font-style: italic;
+            border:2px dotted hotpink;
+            padding: 5px;
+            border-radius: 20px;
+        }
+        #BtnBlanco:hover{
+            background-color: darkblue;
+            color: white;
+            border-radius: 0px;
+            cursor: pointer;
+
+        }
+        .bolita{
+            color: yellow;
+            background-color: whitesmoke;
+            width: 50px;
+            height: 50px;
+            float: left;
+            border-radius: 50%;
+        }
+        #imagen, #formulario{
+            
+            float: left;
+            height: 900px;
+            background-color:  whitesmoke;
+            
+        }
+        #imagen{
+            background-image: url(./../img/olla.jpg);
+            background-size: 100% 100%;
+            background-position: 50% 10%;
+            width: 70%;
+        }
+        #formulario{
+            background-color: turquoise;
+            width: 30%;
+            padding-top: 150px;
+            text-align: right;
+        }
+        #formulario > h1 {
+            padding-right: 10%;
+            font-size: 2.2rem;/* 1rem es igual a 16px*/
+            color: red;
+        }
+        #formulario > h2 {
+            padding-right: 10%;
+            font-size: 1.1rem;
+        }
+        #formulario > form{
+            width: 80%;
+            margin: 30px auto;
+            text-align: left;
+        }
+        #formulario > form > fieldset{
+            padding: 5px;
+            border: none;
+            margin-top: 5px;
+        }
+        #formulario > form > fieldset > label{
+            display: block; /*convertir en caja*/
+        }
+        #formulario > form > fieldset > input{
+            display: block;
+            width: 100%;
+            height: 30px;
+            padding: 5px;
+            border: none;
+            background-color: rgb(255, 255, 255);
+            border-radius: 5px;
+        }
+        #formulario > form > fieldset > button{
+            width: 100px;
+            height: 30px;
+            border: none;
+            background-color: rgb(49, 4, 252);
+            color: white;
+            text-transform: uppercase;
+            border-radius: 5px;
+
+        }
+        #formulario > form > fieldset > a{
+            text-decoration: none;
+            color: blue;
+            float: right;
+        }
